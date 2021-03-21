@@ -1,5 +1,10 @@
 function sumAll(nums) {
-    return 0 
+    var total =  0 
+
+    while(nums.length) {
+        total += nums.pop()
+    }
+    return total
 }
 
 module.exports = sumAll
